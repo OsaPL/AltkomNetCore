@@ -12,3 +12,17 @@ C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.IServices\obj\De
 C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.IServices\obj\Debug\netstandard2.0\utcAltkomDevices.IServices.csproj.CopyComplete
 C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.IServices\obj\Debug\netstandard2.0\utcAltkomDevices.IServices.dll
 C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.IServices\obj\Debug\netstandard2.0\utcAltkomDevices.IServices.pdb
+C:\szkolenie\AltkomNetCore\utcAltkomDevices.IServices\bin\Debug\netstandard2.0\utcAltkomDevices.IServices.deps.json
+C:\szkolenie\AltkomNetCore\utcAltkomDevices.IServices\bin\Debug\netstandard2.0\utcAltkomDevices.IServices.dll
+C:\szkolenie\AltkomNetCore\utcAltkomDevices.IServices\bin\Debug\netstandard2.0\utcAltkomDevices.IServices.pdb
+C:\szkolenie\AltkomNetCore\utcAltkomDevices.IServices\bin\Debug\netstandard2.0\utcAltkomDevices.Models.dll
+C:\szkolenie\AltkomNetCore\utcAltkomDevices.IServices\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
+C:\szkolenie\AltkomNetCore\utcAltkomDevices.IServices\bin\Debug\netstandard2.0\utcAltkomDevices.Models.pdb
+C:\szkolenie\AltkomNetCore\utcAltkomDevices.IServices\bin\Debug\netstandard2.0\Newtonsoft.Json.xml
+C:\szkolenie\AltkomNetCore\utcAltkomDevices.IServices\obj\Debug\netstandard2.0\utcAltkomDevices.IServices.csprojAssemblyReference.cache
+C:\szkolenie\AltkomNetCore\utcAltkomDevices.IServices\obj\Debug\netstandard2.0\utcAltkomDevices.IServices.csproj.CoreCompileInputs.cache
+C:\szkolenie\AltkomNetCore\utcAltkomDevices.IServices\obj\Debug\netstandard2.0\utcAltkomDevices.IServices.AssemblyInfoInputs.cache
+C:\szkolenie\AltkomNetCore\utcAltkomDevices.IServices\obj\Debug\netstandard2.0\utcAltkomDevices.IServices.AssemblyInfo.cs
+C:\szkolenie\AltkomNetCore\utcAltkomDevices.IServices\obj\Debug\netstandard2.0\utcAltkomDevices.IServices.csproj.CopyComplete
+C:\szkolenie\AltkomNetCore\utcAltkomDevices.IServices\obj\Debug\netstandard2.0\utcAltkomDevices.IServices.dll
+C:\szkolenie\AltkomNetCore\utcAltkomDevices.IServices\obj\Debug\netstandard2.0\utcAltkomDevices.IServices.pdb

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -8,6 +9,7 @@ using System.Threading.Tasks;
 using utcAltkomDevices.IServices;
 using utcAltkomDevices.Models;
 using utcAltkomDevices.Models.Searchers;
+using utcAltkomDevices.WebService.Hubs;
 
 namespace utcAltkomDevices.WebService.Controllers
 {
@@ -17,8 +19,11 @@ namespace utcAltkomDevices.WebService.Controllers
     [ApiController] //Or just add FromBody in: public IActionResult Post([FromBody] Device device)
     public class CustomersController : EntityController<Customer>
     {
-        public CustomersController(ILogger<CustomersController> logger, IEntityServices<Customer> incoming) : base(logger,incoming)
+        private readonly CustomersHub customersHub;
+
+        public CustomersController(ILogger<CustomersController> logger, IEntityServices<Customer> incoming, CustomersHub customersHub) : base(logger,incoming)
         {
+            this.customersHub = customersHub;
         }
         // "~/" Starts new route path
         [Route("~/api/customers/{customerid}/devices")]
@@ -28,6 +33,15 @@ namespace utcAltkomDevices.WebService.Controllers
         {
             var temp = this.Request.Headers;
             throw new NotImplementedException();
+        }
+
+        // For testing CustomerHub
+        [Route("~/api/customers/notify")]
+        [HttpPost()]
+        public IActionResult Post(Customer input)
+        {
+            customersHub.Added(input);
+            return Ok(service.Add(input));
         }
     }
 }

@@ -13,6 +13,11 @@ namespace utcAltkomDevices.Models
         public Gender Gender { get; set; }
         public DateTime Birth { get; set; }
         public ICollection<Device> Devices { get; set; }
+
+        public override string ToString()
+        {
+            return string.Join(" ", "Id:", Id, "Name:", Name, "FirstName:", FirstName, "Gender:", Gender, "Birth:", Birth);
+        }
     }
     public enum Gender { Male = 0, Female = 1, NA = 2 }
 }

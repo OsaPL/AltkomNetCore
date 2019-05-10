@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{EEC14A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "utcAltkomDevices.DbServices", "utcAltkomDevices.DbServices\utcAltkomDevices.DbServices.csproj", "{0BC2C6BB-F39A-46B6-BD40-B2DC6AA2A8C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "utcAltkomDevices.HubReceiver", "AltkomNetCore.HubReceiver\utcAltkomDevices.HubReceiver.csproj", "{1EB785CB-EF5E-41E1-9580-B8E55FB2241B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{0BC2C6BB-F39A-46B6-BD40-B2DC6AA2A8C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BC2C6BB-F39A-46B6-BD40-B2DC6AA2A8C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BC2C6BB-F39A-46B6-BD40-B2DC6AA2A8C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EB785CB-EF5E-41E1-9580-B8E55FB2241B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB785CB-EF5E-41E1-9580-B8E55FB2241B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EB785CB-EF5E-41E1-9580-B8E55FB2241B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EB785CB-EF5E-41E1-9580-B8E55FB2241B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +84,7 @@ Global
 		{3BB92239-B737-4215-B89F-A37696EC37B1} = {9E4CA83A-748D-488C-9FF7-37387499B2D9}
 		{62001693-F92E-463D-B378-AEEBB1703F73} = {9E4CA83A-748D-488C-9FF7-37387499B2D9}
 		{0BC2C6BB-F39A-46B6-BD40-B2DC6AA2A8C8} = {EEC14AD0-A102-4019-B060-981744CEFF97}
+		{1EB785CB-EF5E-41E1-9580-B8E55FB2241B} = {9E4CA83A-748D-488C-9FF7-37387499B2D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0AE9E405-59A3-42EB-A975-BC8DAB29AC9A}

@@ -11,6 +11,7 @@ using utcAltkomDevices.FakeServices.Fakers;
 using utcAltkomDevices.IServices;
 using utcAltkomDevices.Models;
 using utcAltkomDevices.WebService.Handlers;
+using utcAltkomDevices.WebService.Hubs;
 
 namespace utcAltkomDevices.WebService
 {
@@ -44,6 +45,8 @@ namespace utcAltkomDevices.WebService
             services.AddSingleton<DeviceFaker>();
             services.AddSingleton<CustomerFaker>();
 
+            services.AddSingleton<CustomersHub>();
+
             //Db services
             //services.AddScoped<IEntityServices<Customer>, DbCustomerServices>();
             //services.AddDbContext<UtcContext>(options => options.UseSqlServer(sqlConnection));
@@ -66,6 +69,10 @@ namespace utcAltkomDevices.WebService
 
             // Adds Swagger docs generator 
             services.AddSwaggerGen(c => c.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info { Title = "Api Name", Version = "1.0" }));
+
+            // Add SignalR (WebSockets) support
+            services.AddSignalR();
+
 
             //Adds authentication
             services.AddAuthentication("BasicAuthorization")
@@ -99,6 +106,9 @@ namespace utcAltkomDevices.WebService
             }
             //Enable authenthication
             app.UseAuthentication();
+
+            //Set SignalR root
+            app.UseSignalR(routes => routes.MapHub<CustomersHub>("/hubs/customers"));
 
             app.UseHttpsRedirection();
             app.UseMvc();
