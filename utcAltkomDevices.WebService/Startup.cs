@@ -11,6 +11,7 @@ using utcAltkomDevices.FakeServices.Fakers;
 using utcAltkomDevices.IServices;
 using utcAltkomDevices.Models;
 using utcAltkomDevices.WebService.Handlers;
+using utcAltkomDevices.WebService.HealthChecks;
 using utcAltkomDevices.WebService.Hubs;
 
 namespace utcAltkomDevices.WebService
@@ -44,8 +45,14 @@ namespace utcAltkomDevices.WebService
 
             services.AddSingleton<DeviceFaker>();
             services.AddSingleton<CustomerFaker>();
-
+            
             services.AddSingleton<CustomersHub>();
+
+            services.AddHealthChecksUI();
+
+            //Health monitoring
+            services.AddHealthChecks()
+                .AddCheck<RandomHealthCheck>("Random");
 
             //Db services
             //services.AddScoped<IEntityServices<Customer>, DbCustomerServices>();
@@ -80,7 +87,7 @@ namespace utcAltkomDevices.WebService
 
             //For BasicAuthentication we add to Header:
             //Authorization=Basic login:p@ss     //(login:p@ss) should be in base64
-                                                 //Basic is our authentication type
+            //Basic is our authentication type
 
             services.AddMvc(options => options.RespectBrowserAcceptHeader = true). // "Accept" requests from clients are being parsed
                 AddXmlSerializerFormatters().   // Adds xml format support
@@ -94,6 +101,10 @@ namespace utcAltkomDevices.WebService
             app.UseSwagger();
             //https://localhost:5001/swagger
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "My Api v1"));
+
+            app.UseHealthChecks("/health");
+
+            app.UseHealthChecksUI();
 
             if (env.IsDevelopment())
             {
