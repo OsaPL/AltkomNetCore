@@ -1,0 +1,14 @@
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\bin\Debug\netstandard2.0\utcAltkomDevices.RestApiServices.deps.json
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\bin\Debug\netstandard2.0\utcAltkomDevices.RestApiServices.dll
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\bin\Debug\netstandard2.0\utcAltkomDevices.RestApiServices.pdb
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\bin\Debug\netstandard2.0\utcAltkomDevices.IServices.dll
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\bin\Debug\netstandard2.0\utcAltkomDevices.Models.dll
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\bin\Debug\netstandard2.0\utcAltkomDevices.IServices.pdb
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\bin\Debug\netstandard2.0\utcAltkomDevices.Models.pdb
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\obj\Debug\netstandard2.0\utcAltkomDevices.RestApiServices.csprojAssemblyReference.cache
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\obj\Debug\netstandard2.0\utcAltkomDevices.RestApiServices.csproj.CoreCompileInputs.cache
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\obj\Debug\netstandard2.0\utcAltkomDevices.RestApiServices.AssemblyInfoInputs.cache
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\obj\Debug\netstandard2.0\utcAltkomDevices.RestApiServices.AssemblyInfo.cs
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\obj\Debug\netstandard2.0\utcAltkomDevices.RestApiServices.csproj.CopyComplete
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\obj\Debug\netstandard2.0\utcAltkomDevices.RestApiServices.dll
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\obj\Debug\netstandard2.0\utcAltkomDevices.RestApiServices.pdb

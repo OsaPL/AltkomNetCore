@@ -1,0 +1,12 @@
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.Models\bin\Debug\netstandard2.0\utcAltkomDevices.Models.deps.json
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.Models\bin\Debug\netstandard2.0\utcAltkomDevices.Models.dll
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.Models\bin\Debug\netstandard2.0\utcAltkomDevices.Models.pdb
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.Models\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.Models\bin\Debug\netstandard2.0\Newtonsoft.Json.xml
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.Models\obj\Debug\netstandard2.0\utcAltkomDevices.Models.csprojAssemblyReference.cache
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.Models\obj\Debug\netstandard2.0\utcAltkomDevices.Models.csproj.CoreCompileInputs.cache
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.Models\obj\Debug\netstandard2.0\utcAltkomDevices.Models.AssemblyInfoInputs.cache
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.Models\obj\Debug\netstandard2.0\utcAltkomDevices.Models.AssemblyInfo.cs
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.Models\obj\Debug\netstandard2.0\utcAltkomDevices.Models.csproj.CopyComplete
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.Models\obj\Debug\netstandard2.0\utcAltkomDevices.Models.dll
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.Models\obj\Debug\netstandard2.0\utcAltkomDevices.Models.pdb

@@ -1,0 +1,14 @@
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\bin\Debug\netstandard2.0\utcAltkomDevices.RestApiClientServices.deps.json
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\bin\Debug\netstandard2.0\utcAltkomDevices.RestApiClientServices.dll
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\bin\Debug\netstandard2.0\utcAltkomDevices.RestApiClientServices.pdb
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\bin\Debug\netstandard2.0\utcAltkomDevices.IServices.dll
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\bin\Debug\netstandard2.0\utcAltkomDevices.Models.dll
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\bin\Debug\netstandard2.0\utcAltkomDevices.IServices.pdb
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\bin\Debug\netstandard2.0\utcAltkomDevices.Models.pdb
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\obj\Debug\netstandard2.0\utcAltkomDevices.RestApiClientServices.csprojAssemblyReference.cache
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\obj\Debug\netstandard2.0\utcAltkomDevices.RestApiClientServices.csproj.CoreCompileInputs.cache
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\obj\Debug\netstandard2.0\utcAltkomDevices.RestApiClientServices.AssemblyInfoInputs.cache
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\obj\Debug\netstandard2.0\utcAltkomDevices.RestApiClientServices.AssemblyInfo.cs
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\obj\Debug\netstandard2.0\utcAltkomDevices.RestApiClientServices.csproj.CopyComplete
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\obj\Debug\netstandard2.0\utcAltkomDevices.RestApiClientServices.dll
+C:\szkolenie\utcAltkomDevices\utcAltkomDevices\utcAltkomDevices.RestApiServices\obj\Debug\netstandard2.0\utcAltkomDevices.RestApiClientServices.pdb

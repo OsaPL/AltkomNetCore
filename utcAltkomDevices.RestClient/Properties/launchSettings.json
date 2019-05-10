@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "utcAltkomDevices.RestClient": {
+      "commandName": "Project",
+      "commandLineArgs": "https://localhost:5001"
+    }
+  }
+}

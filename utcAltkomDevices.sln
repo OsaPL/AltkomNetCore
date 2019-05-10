@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "utcAltkomDevices.Models", "utcAltkomDevices.Models\utcAltkomDevices.Models.csproj", "{AF491069-4BBE-4B77-82A5-5D8F4D8A48EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "utcAltkomDevices.IServices", "utcAltkomDevices.IServices\utcAltkomDevices.IServices.csproj", "{1FC688CC-66F2-495B-90F9-EC7B6D166FCC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "utcAltkomDevices.FakeServices", "utcAltkomDevices.FakeServices\utcAltkomDevices.FakeServices.csproj", "{FA8B75D2-41E2-4867-898D-D368DD8AD620}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "utcAltkomDevices.ConsoleApp", "utcAltkomDevices.ConsoleApp\utcAltkomDevices.ConsoleApp.csproj", "{1AC9B4A8-C799-4EF1-A859-E976ABA2697D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "utcAltkomDevices.WebService", "utcAltkomDevices.WebService\utcAltkomDevices.WebService.csproj", "{D74D4C84-0256-4704-9236-9F9C723D1C09}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "utcAltkomDevices.RestClient", "utcAltkomDevices.RestClient\utcAltkomDevices.RestClient.csproj", "{3BB92239-B737-4215-B89F-A37696EC37B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "utcAltkomDevices.RestApiClientServices", "utcAltkomDevices.RestApiServices\utcAltkomDevices.RestApiClientServices.csproj", "{62001693-F92E-463D-B378-AEEBB1703F73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{E521A81A-A89F-4DB7-A195-F35C2C95936A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{6E7BEADA-4333-42D0-8245-C5A14CDEC4A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{9E4CA83A-748D-488C-9FF7-37387499B2D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{EEC14AD0-A102-4019-B060-981744CEFF97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "utcAltkomDevices.DbServices", "utcAltkomDevices.DbServices\utcAltkomDevices.DbServices.csproj", "{0BC2C6BB-F39A-46B6-BD40-B2DC6AA2A8C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF491069-4BBE-4B77-82A5-5D8F4D8A48EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF491069-4BBE-4B77-82A5-5D8F4D8A48EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF491069-4BBE-4B77-82A5-5D8F4D8A48EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF491069-4BBE-4B77-82A5-5D8F4D8A48EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FC688CC-66F2-495B-90F9-EC7B6D166FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC688CC-66F2-495B-90F9-EC7B6D166FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC688CC-66F2-495B-90F9-EC7B6D166FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC688CC-66F2-495B-90F9-EC7B6D166FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA8B75D2-41E2-4867-898D-D368DD8AD620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA8B75D2-41E2-4867-898D-D368DD8AD620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA8B75D2-41E2-4867-898D-D368DD8AD620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA8B75D2-41E2-4867-898D-D368DD8AD620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AC9B4A8-C799-4EF1-A859-E976ABA2697D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AC9B4A8-C799-4EF1-A859-E976ABA2697D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AC9B4A8-C799-4EF1-A859-E976ABA2697D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AC9B4A8-C799-4EF1-A859-E976ABA2697D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D74D4C84-0256-4704-9236-9F9C723D1C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74D4C84-0256-4704-9236-9F9C723D1C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74D4C84-0256-4704-9236-9F9C723D1C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74D4C84-0256-4704-9236-9F9C723D1C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB92239-B737-4215-B89F-A37696EC37B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB92239-B737-4215-B89F-A37696EC37B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB92239-B737-4215-B89F-A37696EC37B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB92239-B737-4215-B89F-A37696EC37B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62001693-F92E-463D-B378-AEEBB1703F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62001693-F92E-463D-B378-AEEBB1703F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62001693-F92E-463D-B378-AEEBB1703F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62001693-F92E-463D-B378-AEEBB1703F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BC2C6BB-F39A-46B6-BD40-B2DC6AA2A8C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC2C6BB-F39A-46B6-BD40-B2DC6AA2A8C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC2C6BB-F39A-46B6-BD40-B2DC6AA2A8C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC2C6BB-F39A-46B6-BD40-B2DC6AA2A8C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF491069-4BBE-4B77-82A5-5D8F4D8A48EA} = {6E7BEADA-4333-42D0-8245-C5A14CDEC4A9}
+		{1FC688CC-66F2-495B-90F9-EC7B6D166FCC} = {E521A81A-A89F-4DB7-A195-F35C2C95936A}
+		{FA8B75D2-41E2-4867-898D-D368DD8AD620} = {EEC14AD0-A102-4019-B060-981744CEFF97}
+		{1AC9B4A8-C799-4EF1-A859-E976ABA2697D} = {9E4CA83A-748D-488C-9FF7-37387499B2D9}
+		{D74D4C84-0256-4704-9236-9F9C723D1C09} = {EEC14AD0-A102-4019-B060-981744CEFF97}
+		{3BB92239-B737-4215-B89F-A37696EC37B1} = {9E4CA83A-748D-488C-9FF7-37387499B2D9}
+		{62001693-F92E-463D-B378-AEEBB1703F73} = {9E4CA83A-748D-488C-9FF7-37387499B2D9}
+		{0BC2C6BB-F39A-46B6-BD40-B2DC6AA2A8C8} = {EEC14AD0-A102-4019-B060-981744CEFF97}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AE9E405-59A3-42EB-A975-BC8DAB29AC9A}
+	EndGlobalSection
+EndGlobal
