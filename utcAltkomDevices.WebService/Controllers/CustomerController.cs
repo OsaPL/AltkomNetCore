@@ -11,8 +11,8 @@ using utcAltkomDevices.Models.Searchers;
 
 namespace utcAltkomDevices.WebService.Controllers
 {
-    //Adds controller wide authorization
-    [Authorize]
+    //Adds controller wide authorization, with additional role check
+    [Authorize(Roles = "AdminRole")]
     [Route("api/[controller]")]
     [ApiController] //Or just add FromBody in: public IActionResult Post([FromBody] Device device)
     public class CustomersController : EntityController<Customer>

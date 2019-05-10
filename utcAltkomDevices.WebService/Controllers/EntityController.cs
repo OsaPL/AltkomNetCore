@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using System.Security.Claims;
 using utcAltkomDevices.IServices;
 using utcAltkomDevices.Models;
 
@@ -20,9 +21,14 @@ namespace utcAltkomDevices.WebService.Controllers
         [HttpGet]
         public IActionResult Get()
         {
+            //We can extract the data that is being put into Claim on authentication
+            var name = this.User.FindFirst(ClaimTypes.Name).Value;
+            var welcome = this.User.FindFirst("Hey").Value;
+
+
             logger.LogWarning("Get all called");
-            var devices = service.Get();
-            return Ok(devices);
+            var input = service.Get();
+            return Ok(input);
         }
 
         [HttpGet("{id:int}")]

@@ -16,7 +16,7 @@ namespace utcAltkomDevices.FakeServices
         {
             if (login == "admin" && password == "1234")
             {
-                return new User() { Login = "admin", Name = "Master", Id = 0 };
+                return new User() { Login = "admin", Name = "Master", Id = 0 ,Role = "AdminRole"};
             }
             else
             {

@@ -32,18 +32,25 @@ namespace utcAltkomDevices.WebService.Handlers
             }
             else
             {
-                var authHeader = AuthenticationHeaderValue.Parse(Request.Headers["Authorization"]);
-                var credentials = Encoding.UTF8.GetString(Convert.FromBase64String(authHeader.Parameter)).Split(':');
-
-                var user = credentials[0];
-                var pass = credentials[1];
-
-                User userObj = userService.Authenticate(user, pass);
+                User userObj = ParseAuthentication(Request.Headers["Authorization"]);
 
                 if (userObj != null)
                 {
-                    IIdentity identity = new ClaimsIdentity(userObj.Login);
+                    // We can add more info to the Claim, to be injected into authenticated User 
+                    Claim[] claims = new[]
+                    {
+                        new Claim("Hey","Hola"),
+                        new Claim(ClaimTypes.Name,userObj.Name),
+                        new Claim(ClaimTypes.NameIdentifier, userObj.Id.ToString()),
+                        //We can also add roles to check for permisions in controllers
+                        new Claim(ClaimTypes.Role, userObj.Role),
+                        new Claim(ClaimTypes.Role, "UserRole")
+                    };
+
+                    IIdentity identity = new ClaimsIdentity(claims, Scheme.Name);
                     ClaimsPrincipal principal = new ClaimsPrincipal(identity);
+                    
+
                     var ticket = new AuthenticationTicket(principal, Scheme.Name);
 
                     return AuthenticateResult.Success(ticket);
@@ -54,6 +61,15 @@ namespace utcAltkomDevices.WebService.Handlers
                 }
 
             }
+        }
+
+        //TODO: Is there any prettier way to do this in .NetCore?
+        private User ParseAuthentication(string authorizationHeader)
+        {
+            var authHeader = AuthenticationHeaderValue.Parse(authorizationHeader);
+            var credentials = Encoding.UTF8.GetString(Convert.FromBase64String(authHeader.Parameter)).Split(':');
+
+            return userService.Authenticate(credentials[0], credentials[1]);
         }
     }
 }
